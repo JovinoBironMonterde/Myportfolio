@@ -409,6 +409,15 @@ hr {
   cursor: pointer;
 }
 
+.experience-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: steelblue;
+}
+
 .Profission-section {
   position: relative;
   width: 100%;
@@ -430,8 +439,7 @@ hr {
 }
 .Profission-section .title {
   text-align: center;
-
-  color: aliceblue;
+  z-index: 999999999999999999999999;
 }
 .Profission-section .container {
   position: relative;
@@ -441,7 +449,6 @@ hr {
   display: flex;
   align-items: center;
   overflow: inherit;
-  background-color: #057920;
 }
 
 .skill-text {
@@ -456,7 +463,6 @@ hr {
 .bar-container {
   flex: 50%;
 
-  background-color: #07a1ac;
   display: flex;
 }
 .bar-container::before {
@@ -510,16 +516,16 @@ hr {
   width: 90px;
   height: 90px;
   border-radius: 60px;
-  background: conic-gradient(#2f4f4f 220deg, white 0deg);
+  background: conic-gradient(#2f4f4f 220deg, rgb(197, 193, 193) 0deg);
 
   margin: 0 auto;
 }
 .inner-bar {
-  width: 72px;
-  height: 72px;
+  width: 70px;
+  height: 70px;
   border-radius: 45px;
-  border: 1px solid gray;
-  background-color: white;
+  border: none;
+  background-color: #057179;
 }
 
 .cercle-bar-container {
@@ -559,7 +565,6 @@ hr {
 }
 .service-container {
   width: 100%;
-  background-color: aquamarine;
 }
 
 .service-box {
@@ -578,7 +583,7 @@ hr {
   padding: 20px;
 }
 
-/* .marginTop .left,
+.marginTop .left,
 .marginTop .right {
   border-bottom: 2px solid rgb(38, 33, 33);
 }
@@ -587,7 +592,7 @@ hr {
 }
 .marginTop .right {
   border-left: 2px solid rgb(38, 33, 33);
-} */
+}
 
 .marginBottom .left,
 .marginBottom .right {
