@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Jovino</title>
+  </head>
+  <body>
+    <!-- PAGES CONTAINER -->
+    <div class="page-container">
+      <!-- SIDEBAR SECTION -->
+      <section class="sidebar-section" id="myid">
+        <div class="sidebarinfo" id="info">
+          <!-- <div class="img-sidebar">
+            <img src="./img/home-face.png" alt="" />
+          </div> -->
+          <div class="container">
+            <div class="sideprofile">
+              <img src="./img/home-face2.png" alt="" width="100%" />
+            </div>
+            <div class="hrline">
+              <hr />
+            </div>
+
+            <div class="sidebar-info">
+              <div>
+                <i class="fa-brands fa-github"></i>
+                <p>
+                  <a href="https://github.com/JovinoBironMonterde"
+                    >JovinoBironMonterde</a
+                  >
+                </p>
+              </div>
+              <div>
+                <i class="fa-solid fa-phone"></i>
+                <p>09664390844(Globe) City</p>
+              </div>
+              <div>
+                <i class="fa-solid fa-location-dot"></i>
+                <p>
+                  Blk 66 Lot 25 Channel Ridge View Babatngon Leyte, Tacloban
+                  City
+                </p>
+              </div>
+              <div>
+                <i class="fa-sharp fa-solid fa-envelope"></i>
+                <p>
+                  09664390844(Globe)<br />
+                  09380236471(Smart)
+                </p>
+              </div>
+            </div>
+            <div class="hrline2">
+              <hr />
+              <h3>language</h3>
+              <hr />
+            </div>
+            <div class="language">
+              <div>
+                <h4>English</h4>
+                <span>50%</span>
+              </div>
+
+              <div class="bar"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="chkfixed">
+        <input
+          type="checkbox"
+          id="sidebar-check"
+          class="chk-visible"
+          onclick=" icon_action()"
+        />
+        <label for="sidebar-check" id="side-icon" onclick=" icon_action()">
+          <div class="pro-icon" id="sidebar-open" onclick="w3_open()">
+            <i class="fa-solid fa-user"></i>
+          </div>
+          <div class="pro-icon" id="sidebar-close" onclick="w3_close()">
+            <i class="fa-solid fa-user"></i>
+          </div>
+        </label>
+      </div>
+      <!-- END SIDEBAR SECTION -->
+
+      <!-- START PAGES -->
+      <div class="pages">
+        <!-- START OF TOPBAR -->
+        <section class="topbar-section" id="topbar">
+          <div class="container">
+            <div class="logo">
+              <h1>JMonterde</h1>
+            </div>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#profission">Profission</a></li>
+              <li><a href="#service">Service</a></li>
+              <li><a href="#contact">Contact</a></li>
+
+              <span>|</span>
+              <div class="settings">
+                <input
+                  type="checkbox"
+                  id="id_settings"
+                  class="class_settings"
+                />
+                <label for="id_settings">
+                  <i class="fa-sharp fa-solid fa-gear"></i>
+                </label>
+                <ul id="settings-con">
+                  <div class="dark-mode">
+                    <input
+                      type="checkbox"
+                      id="id_darkmode"
+                      class="class_darkmode"
+                    />
+                    <label for="switch" class="toggle">
+                      <p>OFF ON</p>
+                    </label>
+                    <li>Dark Mode</li>
+                  </div>
+                  <li>Dark Mode</li>
+                  <li>Dark Mode</li>
+                  <li>Dark Mode</li>
+                </ul>
+              </div>
+            </ul>
+          </div>
+        </section>
+        <!-- END OF TOPBAR -->
+
+        <section class="home-section" id="home">
+          <div class="container">
+            <div class="hero-text">
+              <h3>Hello, I'm</h3>
+              <h1>Jovino Monterde</h1>
+              <h3>And I'm a</h3>
+              <span class="typing">Web Developer</span>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
+              ratione!
+            </p>
+            <div class="hero-btn">
+              <button>View Project</button>
+              <button>Hire Me!</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="about-section" id="about">
+          <div class="container">
+            <div class="title">
+              <h1>About</h1>
+              <hr />
+            </div>
+            <div class="about-info">
+              <div class="profile">
+                <img src="./img/home-face.png" width="100%" alt="" />
+              </div>
+              <div class="text-info">
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui
+                  quae nobis aspernatur quibusdam recusandae. Quia aliquam aut
+                  iusto. Dolorem, ad! Laborum fugiat sapiente corrupti pariatur
+                  ut odio soluta, officia dolorum! Lorem ipsum, dolor sit amet
+                  consectetur adipisicing elit. Qui quae nobis aspernatur
+                  quibusdam recusandae. Quia aliquam aut iusto. Dolorem, ad!
+                  Laborum fugiat sapiente corrupti pariatur ut odio soluta,
+                  officia dolorum!
+                </p>
+                <div class="others">
+                  <div class="button">
+                    <button>Download <span>CV</span></button>
+                  </div>
+                  <div class="social">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="Profission-section" id="profission">
+          <div class="skills-bg"></div>
+          <div class="title">
+            <h1>Profission</h1>
+          </div>
+
+          <div class="container">
+            <div class="cercle-bar-container">
+              <div class="skill-text">
+                <!-- <a href="https://storyset.com/data"
+                    >Data illustrations by Storyset</a
+                  > -->
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Sapiente voluptatem laborum voluptates delectus voluptate a
+                  repellat esse enim? Eaque voluptatibus necessitatibus, sed uam
+                  veritatis officiis nisi necessitatibus quaerat?
+                </p>
+              </div>
+            </div>
+            <div class="bar-container">
+              <div class="left-bar">
+                <div class="progress-bar">
+                  <h4>HTML5</h4>
+                  <div class="bars"></div>
+                </div>
+                <div class="progress-bar">
+                  <h4>CSS3</h4>
+                  <div class="bars"></div>
+                </div>
+                <div class="progress-bar">
+                  <h4>BOOTSTRAP5</h4>
+                  <div class="bars"></div>
+                </div>
+
+                <div class="cercle-bar-container">
+                  <div class="cercle-bar">
+                    <div class="outer-bar">
+                      <div class="inner-bar"></div>
+                    </div>
+                    <h4>WordPress</h4>
+                  </div>
+                  <div class="cercle-bar">
+                    <div class="outer-bar">
+                      <div class="inner-bar"></div>
+                    </div>
+                    <h4>Material UI</h4>
+                  </div>
+                </div>
+              </div>
+
+              <div class="right-bar">
+                <div class="progress-bar">
+                  <h4>JAVASCRIPT</h4>
+                  <div class="bars"></div>
+                </div>
+                <div class="progress-bar">
+                  <h4>NExt.JS</h4>
+                  <div class="bars"></div>
+                </div>
+                <div class="progress-bar">
+                  <h4>MySql</h4>
+                  <div class="bars"></div>
+                </div>
+
+                <div class="cercle-bar-container">
+                  <div class="cercle-bar">
+                    <div class="outer-bar">
+                      <div class="inner-bar"></div>
+                    </div>
+                    <h4>Web design</h4>
+                  </div>
+                  <div class="cercle-bar">
+                    <div class="outer-bar">
+                      <div class="inner-bar"></div>
+                    </div>
+                    <h4>Mobile Responsive</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="service-section" id="service">
+          <div class="title">
+            <h1>Service</h1>
+          </div>
+          <div class="text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+              repellat odio debitis eveniet commodi voluptates quae, sapiente
+              esse aliquid dignissimos?
+            </p>
+          </div>
+          <div class="container">
+            <div class="service-container">
+              <div class="service-box marginTop">
+                <div class="service left">
+                  <div>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur. amet consectetur
+                    </p>
+                  </div>
+                </div>
+                <div class="service right">
+                  <div>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur. amet consectetur
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="service-box marginBottom">
+                <div class="service left">
+                  <div>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur. amet consectetur
+                    </p>
+                  </div>
+                </div>
+                <div class="service right">
+                  <div>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur. amet consectetur
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- START PAGES -->
+    </div>
+    <!-- END PAGES CONTAINER -->
+    <script src="./script/script.js"></script>
+  </body>
+</html>
