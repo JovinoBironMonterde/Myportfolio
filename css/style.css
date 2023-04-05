@@ -312,10 +312,11 @@ ul span {
 }
 
 .hero-btn button:hover {
-  background-color: darkorange;
+  background-color: var(--secondary-bgcolor);
   color: white;
   cursor: pointer;
   transition: all 0.3s ease;
+  border-style: none;
 }
 
 .about-section {
@@ -413,7 +414,7 @@ hr {
 .experience-section {
   width: 100%;
   height: auto;
-  background-color: steelblue;
+  background-color: #13818f;
   padding: 50px 0;
 }
 .container-box {
@@ -422,25 +423,42 @@ hr {
   margin: 10% auto;
 }
 .workexperience {
+  position: relative;
   width: 100%;
   height: auto;
 }
-.worktext {
-  flex: 45%;
-  background-color: #07a1ac;
-}
-.work {
-  display: flex;
-  align-items: center;
-  background-color: #057179;
-  margin: 10px;
+.workexperience::before {
+  position: absolute;
+  content: "";
+  width: 3px;
+  height: 90%;
+  left: 50%;
+  background-color: gray;
 }
 
+.work {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 10px 0;
+}
+.work::after {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: gray;
+  left: 49.2%;
+}
+.worktext {
+  width: 40%;
+}
 .work-img {
-  flex: 45%;
+  width: 40%;
   margin-right: 5%;
-  width: 150px;
-  background-color: #07a1ac;
 }
 
 .Profission-section {
